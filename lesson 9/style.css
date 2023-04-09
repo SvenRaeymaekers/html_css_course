@@ -1,0 +1,49 @@
+.red-square {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.green-circle {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100px 100px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.service-div {
+    border-color: grey;
+    border-width: 1px;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    width: 300px;
+}
+
+.service-div-content {
+    margin: 10px;
+}
+
+.youtube-div {
+    background-color: rgb(42, 38, 38);
+    display: inline-block;
+    width: 400px;
+}
+
+#youtube-description {
+    color: rgb(166, 164, 164);
+    margin-top: 5px;
+}
+
+#youtube-title {
+    color: white;
+    margin: 2px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.youtube-div-content {
+    margin: 20px;
+}

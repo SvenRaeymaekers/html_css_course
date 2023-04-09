@@ -1,0 +1,107 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: 200px 75px;
+    margin-bottom: 20px;
+}
+
+.column1 {
+
+    background-color: rgb(87, 199, 234);
+}
+
+
+.column2 {
+    background-color: rgb(228, 127, 239);
+}
+
+.column3 {
+    background-color: rgb(87, 199, 234);
+}
+
+
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 30px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-bottom: 30px;
+    gap: 10px 20px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px 0px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.card-image-div {
+    width: 100%;
+    height: 60%;
+
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-info-div {
+    height: 40%;
+    margin: 8px
+}
+
+.name-div {
+    font-weight: bold;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.profile-image-mutual {
+    color: grey;
+    font-size: 15px;
+
+}
+
+.profile-image-div {
+    display: inline-block;
+    width: 15%;
+}
+
+.profile-image-mutual {
+    display: inline-block;
+
+}
+
+.profile {
+    vertical-align: middle;
+    margin: 5px 0px 7px 0px;
+}
+
+.add-button {
+    background-color: rgb(7, 101, 233);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    transition: background-color 00ms;
+}
+
+.add-button:hover {
+    background-color: rgb(69, 137, 233);
+}

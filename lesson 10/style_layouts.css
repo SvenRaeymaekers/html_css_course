@@ -1,0 +1,52 @@
+.top-div {
+    height: 100px;
+
+}
+
+.image-div {
+    display: inline-block;
+    height: 70%;
+    vertical-align: middle;
+
+}
+
+.display-image {
+    height: 100%;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+
+.information-div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+.title-div {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.animal-div {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: rgb(33, 132, 223);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+
+
+.button-div {
+    display: inline-block;
+}
