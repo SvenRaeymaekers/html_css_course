@@ -1,0 +1,58 @@
+body {
+    
+    padding-right: 0px;
+}
+
+.bottom-right-element {
+    position: fixed;
+    right: 70px;
+    bottom: 40px;
+    background-color: black;
+    color: white;
+}
+
+.test {
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+}
+
+.right-sidebar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width:70px;
+    bottom:0px;
+    background-color: green;
+    color:white;
+}
+.hovering-card{
+    border-radius: 5px;
+    background-color: white;;
+    padding:10px;
+    width:200px;
+
+}
+.title{
+    font-weight:bold;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.content{
+    margin-bottom:10px;
+}
+
+.background-hovering-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+    top:0px;
+    bottom:0px;
+    right:0px;
+    position:fixed;
+    left:0px;
+}
+.

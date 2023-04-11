@@ -1,0 +1,184 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.exec-13a {
+    display: flex;
+    flex-direction: row;
+}
+
+.element1 {
+    background-color: pink;
+    width: 100px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.element2 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.exec-13b {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.el1 {
+    background-color: pink;
+    width: 100px;
+}
+
+.el2 {
+    background-color: lightblue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.el2-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.el2-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.el2-2-item {
+    background-color: black;
+    color: white;
+}
+
+.sender-picture {
+    width: 100px;
+}
+
+.inbox {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    width: 310px;
+    padding: 15px;
+    border-radius:20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: grey;
+    font-family: arial;
+    font-weight: 500;
+}
+
+
+.mails {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.horiz-div {
+    display: flex;
+
+}
+
+.mail-image {
+
+    width: 50px;
+
+}
+
+.sender-picture {
+    border-radius: 100%;
+    width: 90%;
+}
+
+.mail {
+    display: flex;
+    flex-direction: row;
+    align-items: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.mail-content {
+    display: flex;
+    flex-direction: column;
+    margin-left:10px;
+
+
+}
+
+
+.mail-sender-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mail-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mail-subj {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.mail-text {
+    font-size: 13px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.time-received {
+    color: grey;
+    font-size: 10px;
+}
+
+.link-element {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border: solid 1px rgb(180, 179, 179);
+    ;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.link-content {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 7px;
+}
+
+.link-title {
+    margin-bottom: 4px;
+    color: grey;
+    font-size: 11px;
+}
+
+.grey-zone {
+    flex: 1;
+    background-color: rgb(180, 179, 179);
+    border-radius: 15px 0px 0px 15px;
+}
+
+.mail-subj-2 {
+    font-size: 13px;
+}
+.link-description{
+    font-size:14px;
+}
