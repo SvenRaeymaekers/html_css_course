@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(227, 222, 215);
+    height: 3000px;
+}
+
+
+
+.video-thumbnail {
+    background-color: rgb(153, 147, 147);
+    width: 200px;
+    height: 100px;
+
+    right: 20px;
+    top: 50px;
+    position: fixed;
+}
+
+
+.timestamp {
+    position: relative;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 0.1px;
+    font-family: arial;
+
+}
+
+.cross-circle {
+    background-color: black;
+    position: absolute;
+    color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    padding: 3px;
+    left: -7px;
+    top: -7px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clothing-picture {
+    height: 100%;
+}
+
+#clothing-item {
+
+    height: 100%;
+
+}
+
+.clothing-container {
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4)
+}
+
+.discount {
+    position: absolute;
+    top: 15px;
+    right: 3px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 5px;
+
+}
+
+.addtocart {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 80px;
+    background-color: rgba(236, 233, 233, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.addtocarttext {
+    padding: 5px 10px 5px 10px;
+    border: solid 1px black;
+    background-color: rgb(232, 232, 232);
+}
